@@ -1,0 +1,66 @@
+.App {
+  max-width: 600px;
+  margin: 26px auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 12px 0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.input-wrapper label {
+  padding-left: 8px;
+}
+
+.input-wrapper input {
+  box-sizing: border-box;
+  padding: 8px;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.btn-ok {
+  flex-grow: 1;
+  height: 45px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+
+th, td {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td input {
+  text-align: center;
+}
+
+td input:disabled {
+  border: none;
+  background: transparent;
+}
+
+td button {
+  margin: 8px;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+}
